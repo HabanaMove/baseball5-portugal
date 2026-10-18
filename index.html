@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#14231d">
+  <meta name="description" content="Baseball5 Portugal — desenvolvimento, formação e expansão do Baseball5 em Portugal, com Coimbra como ponto de partida e uma visão internacional.">
+  <title>Baseball5 Portugal — Play Everywhere</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main" data-i18n="skip">Saltar para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Baseball5 Portugal — início">
+      <span class="brand-mark" aria-hidden="true">B5</span>
+      <span class="brand-text"><strong>BASEBALL5</strong><small>PORTUGAL</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menu">☰</button>
+    <nav class="main-nav" id="mainNav" aria-label="Navegação principal">
+      <a href="#about" data-i18n="navAbout">A modalidade</a>
+      <a href="#portugal" data-i18n="navPortugal">Portugal</a>
+      <a href="#coimbra" data-i18n="navCoimbra">Coimbra</a>
+      <a href="#international" data-i18n="navInternational">Internacional</a>
+      <a href="#partners" data-i18n="navPartners">Parcerias</a>
+      <a class="nav-contact" href="#contact" data-i18n="navContact">Contactos</a>
+    </nav>
+    <label class="language-picker">
+      <span class="sr-only" data-i18n="languageLabel">Idioma</span>
+      <select id="languageSelect" aria-label="Language">
+        <option value="pt">PT</option><option value="es">ES</option><option value="en">EN</option>
+      </select>
+    </label>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-shape shape-one"></div><div class="hero-shape shape-two"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span class="eyebrow-dot"></span><span data-i18n="heroEyebrow">PORTUGAL · COIMBRA · MUNDO</span></p>
+        <h1 data-i18n="heroTitle">O futuro do desporto<br><em>joga-se aqui.</em></h1>
+        <p class="hero-copy" data-i18n="heroCopy">Uma modalidade urbana, dinâmica e inclusiva. Descobre o Baseball5, acompanha o seu desenvolvimento em Portugal e faz parte de uma comunidade sem fronteiras.</p>
+        <div class="hero-actions">
+          <a class="button button-lime" href="#about" data-i18n="heroPrimary">Descobrir o Baseball5 <span>↗</span></a>
+          <a class="button button-outline" href="#contact" data-i18n="heroSecondary">Falar connosco</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span><span data-i18n="heroNote">PLAY EVERYWHERE — UM DESPORTO PARA TODOS</span></div>
+      </div>
+      <div class="hero-art" aria-label="Ilustração gráfica inspirada num campo de Baseball5">
+        <div class="court">
+          <div class="court-inner"></div><div class="court-line line-a"></div><div class="court-line line-b"></div>
+          <div class="base base-home"></div><div class="base base-left"></div><div class="base base-top"></div><div class="base base-right"></div>
+          <div class="ball"><span></span></div>
+          <div class="court-label">BASEBALL<span>5</span></div>
+        </div>
+        <div class="art-tag tag-top"><span class="tag-icon">✳</span><span data-i18n="artTagTop">JOGA EM TODO O LADO</span></div>
+        <div class="art-tag tag-bottom"><strong>5</strong><span data-i18n="artTagBottom">JOGADORES<br>POR EQUIPA</span></div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span><span data-i18n="scroll">EXPLORAR</span></a>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-kicker"><span>01</span><span data-i18n="aboutKicker">CONHECE A MODALIDADE</span></div>
+      <div class="intro-grid">
+        <div><h2 data-i18n="aboutTitle">Uma bola.<br><em>Infinitas possibilidades.</em></h2></div>
+        <div class="intro-text">
+          <p data-i18n="aboutText">O Baseball5 é uma modalidade desportiva rápida e acessível, inspirada no beisebol e no softbol. Joga-se com uma bola de borracha, sem bastão nem luva, e pode adaptar-se a diferentes espaços urbanos e escolares.</p>
+          <a class="text-link" href="https://www.wbsc.org/" target="_blank" rel="noopener noreferrer"><span data-i18n="officialRules">Conhecer a organização mundial</span> <span>↗</span></a>
+        </div>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">↗</div><h3 data-i18n="feature1Title">Acessível</h3><p data-i18n="feature1Text">Equipamento simples e possibilidade de jogar em muitos espaços.</p></article>
+        <article class="feature-card"><div class="feature-icon">◎</div><h3 data-i18n="feature2Title">Misto e inclusivo</h3><p data-i18n="feature2Text">Uma modalidade que promove participação, cooperação e espírito de equipa.</p></article>
+        <article class="feature-card"><div class="feature-icon">ϟ</div><h3 data-i18n="feature3Title">Dinâmico</h3><p data-i18n="feature3Text">Velocidade, decisão, coordenação e ação do primeiro ao último ponto.</p></article>
+      </div>
+    </section>
+
+    <section class="dark-section section" id="portugal">
+      <div class="section-kicker light"><span>02</span><span data-i18n="portugalKicker">DESENVOLVIMENTO NACIONAL</span></div>
+      <div class="split-heading"><h2 data-i18n="portugalTitle">Construir o futuro<br><em>em Portugal.</em></h2><p data-i18n="portugalText">Trabalhamos para dar a conhecer a modalidade, apoiar a formação e criar oportunidades de participação para atletas, treinadores, escolas, clubes e comunidades.</p></div>
+      <div class="pillars">
+        <div class="pillar"><span class="pillar-number">01 /</span><h3 data-i18n="pillar1Title">Massificação</h3><p data-i18n="pillar1Text">Levar o Baseball5 a mais pessoas, escolas e comunidades.</p></div>
+        <div class="pillar"><span class="pillar-number">02 /</span><h3 data-i18n="pillar2Title">Formação</h3><p data-i18n="pillar2Text">Partilhar conhecimentos, recursos e boas práticas de treino.</p></div>
+        <div class="pillar"><span class="pillar-number">03 /</span><h3 data-i18n="pillar3Title">Competição</h3><p data-i18n="pillar3Text">Criar condições para encontros, eventos e evolução desportiva.</p></div>
+      </div>
+    </section>
+
+    <section class="coimbra-section section" id="coimbra">
+      <div class="coimbra-graphic" aria-hidden="true"><div class="coimbra-ring ring-one"></div><div class="coimbra-ring ring-two"></div><div class="coimbra-cross">C<span>5</span></div><div class="coimbra-caption">PORTUGAL · 40°12′N</div></div>
+      <div class="coimbra-copy"><div class="section-kicker"><span>03</span><span data-i18n="coimbraKicker">UM PONTO DE PARTIDA</span></div><h2 data-i18n="coimbraTitle">Coimbra.<br><em>Começamos aqui.</em></h2><p data-i18n="coimbraText">Coimbra é um ponto de desenvolvimento do projeto, com ambição de aproximar novos atletas da modalidade e construir uma comunidade local ligada ao movimento nacional e internacional do Baseball5.</p><a class="button button-dark" href="#contact" data-i18n="coimbraButton">Saber mais <span>↗</span></a></div>
+    </section>
+
+    <section class="international-section section" id="international">
+      <div class="section-kicker"><span>04</span><span data-i18n="internationalKicker">VISÃO INTERNACIONAL</span></div>
+      <div class="international-grid"><div><h2 data-i18n="internationalTitle">Local na ação.<br><em>Global na visão.</em></h2></div><div><p data-i18n="internationalText">O Baseball5 faz parte do universo internacional do beisebol e do softbol e é promovido pela World Baseball Softball Confederation (WBSC). Queremos aproximar Portugal das oportunidades de aprendizagem, intercâmbio e competição.</p><a class="text-link" href="https://www.wbsc.org/" target="_blank" rel="noopener noreferrer"><span data-i18n="wbscLink">Visitar o site da WBSC</span> <span>↗</span></a></div></div>
+      <div class="international-banner"><div class="banner-mark">B5</div><div><span data-i18n="bannerEyebrow">UMA COMUNIDADE, MUITAS FRONTEIRAS A ULTRAPASSAR</span><h3 data-i18n="bannerTitle">Play everywhere. Build together.</h3></div><div class="banner-star">✳</div></div>
+    </section>
+
+    <section class="partners-section section" id="partners">
+      <div class="section-kicker"><span>05</span><span data-i18n="partnersKicker">CRESCER EM CONJUNTO</span></div>
+      <div class="partners-grid"><h2 data-i18n="partnersTitle">O próximo capítulo<br><em>escreve-se em equipa.</em></h2><div><p data-i18n="partnersText">Procuramos aproximar instituições, municípios, escolas, clubes e empresas que queiram contribuir para o desenvolvimento do Baseball5 em Portugal.</p><a class="text-link" href="#contact"><span data-i18n="partnersLink">Explorar oportunidades de parceria</span> <span>↗</span></a></div></div>
+    </section>
+
+    <section class="contact-section section" id="contact">
+      <div class="contact-panel"><div class="section-kicker light"><span>06</span><span data-i18n="contactKicker">VAMOS CONVERSAR</span></div><div class="contact-grid"><div><h2 data-i18n="contactTitle">Faz parte<br><em>do movimento.</em></h2><p data-i18n="contactText">És atleta, treinador, escola, clube, instituição ou potencial parceiro? Entra em contacto para saber mais sobre o projeto.</p></div><div class="contact-details"><div class="contact-row"><span data-i18n="emailLabel">EMAIL</span><a href="mailto:douglasmatatan@gmail.com">douglasmatatan@gmail.com ↗</a></div><div class="contact-row"><span data-i18n="phoneLabel">TELEFONE / WHATSAPP</span><a href="https://wa.me/351911742864" target="_blank" rel="noopener noreferrer">+351 911 742 864 ↗</a></div><div class="contact-row"><span data-i18n="locationLabel">BASE</span><span data-i18n="locationValue">Coimbra, Portugal</span></div></div></div></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><span class="brand-mark">B5</span><span class="brand-text"><strong>BASEBALL5</strong><small>PORTUGAL</small></span></a><p data-i18n="footerText">Desenvolvimento. Inclusão. Excelência desportiva.</p><div class="footer-bottom"><span>© <span id="year"></span> Baseball5 Portugal</span><span data-i18n="footerNote">Projeto de desenvolvimento desportivo independente.</span><a href="#home" data-i18n="backTop">Voltar ao topo ↑</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
